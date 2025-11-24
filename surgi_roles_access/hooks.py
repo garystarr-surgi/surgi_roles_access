@@ -8,7 +8,14 @@ app_email = "gary.starr@surgishop.com"
 app_license = "MIT"
 
 # ------------------------------
-# Override Customer dashboard
+# Include JavaScript files
+# ------------------------------
+app_include_js = [
+    "public/js/customer_dashboard.js"
+]
+
+# ------------------------------
+# Override Customer dashboard (Python approach for adding items)
 # ------------------------------
 override_doctype_dashboards = {
     "Customer": "surgi_roles_access.dashboard.customer_dashboard.get_data"
