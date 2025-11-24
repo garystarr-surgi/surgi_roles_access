@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "surgi_roles_access"
+version = "0.0.1"
+description = "Custom app to control connection shortcuts per role"
+authors = [
+  { name="SurgiShop", email="gary.starr@surgishop.com" }
+]
+dependencies = [
+  "frappe>=15"  # adjust version based on your Frappe version
+]
+readme = "README.md"
+license = { text = "MIT" }
