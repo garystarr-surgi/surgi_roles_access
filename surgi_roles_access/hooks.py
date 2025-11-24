@@ -13,4 +13,3 @@ app_license = "MIT"
 override_doctype_dashboards = {
     "Customer": "surgi_roles_access.dashboard.customer_dashboard.get_data"
 }
-
