@@ -18,5 +18,5 @@ app_include_js = [
 # Override Customer dashboard (Python approach for adding items)
 # ------------------------------
 override_doctype_dashboards = {
-    "Customer": "surgi_roles_access.dashboard.customer_dashboard.get_data"
+    "*": "surgi_roles_access.overrides.dashboard.get_dashboard_data_override"
 }
